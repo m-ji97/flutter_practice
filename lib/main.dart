@@ -10,7 +10,7 @@ import 'ex08.dart';
 import 'ex09.dart';
 import 'ex10.dart';
 import 'ex11.dart';
-/*import 'ex12.dart';*/
+import 'ex12.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: "/08",
+      initialRoute: "/12",
       routes: { //map
         "/": (context) => Ex01(),
         "/02": (context) => Ex02(),
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         "/09": (context) => Ex09(),
         "/10": (context) => Ex10(),
         "/11": (context) => Ex11(),
-        /*"/12": (context) => Ex12(),*/
+        "/12": (context) => Ex12(),
       },
 
     );
